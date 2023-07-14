@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida de ratas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>¿Que pueden comer mis ratas?</h1>
+    <p>Ingrese el alimento que estás pensando darles y se cargarán los resultados</p>
+    <input type="text" placeholder="manzana" onkeyup="search(event)">
+    <div>
+        <table id="response">
+            <tr>
+                <th>Nombre</th>
+                <th>Es comestible?</th>
+                <th>Le gusta?</th>
+                <th>Frecuencia recomendada</th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: #553939;
+    color: lightgray;
+}
+
+table{
+    width: 80%;
+    margin: 3rem auto;
+    border-collapse: collapse;
+}
+
+th{
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+table, th, td{
+    border: solid #A77979 2px;
+}
+
+div{
+    overflow: auto;
+}
